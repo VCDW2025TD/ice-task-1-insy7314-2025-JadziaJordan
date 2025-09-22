@@ -1,0 +1,41 @@
+SSL (Secure Sockets Layer) and TLS (Transport Layer Security)
+SSL and TLS serve the same purpose: securing data during transmission over the internet. TLS is the newer, more secure version of SSL.
+
+Main Functions of SSL/TLS:
+
+Encryption: Protects data from being read by unauthorized parties.
+
+Authentication: Confirms the identity of the communicating parties.
+
+Data Integrity: Ensures that the data has not been tampered with during transmission.
+
+HTTP vs HTTPS
+HTTP (HyperText Transfer Protocol):
+
+Data is transmitted in plain text.
+
+Vulnerable to:
+
+Eavesdropping (e.g., someone on the same Wi-Fi network can see your data)
+
+Man-in-the-middle attacks (attackers intercept and modify data)
+
+HTTPS (HTTP Secure):
+
+Uses SSL/TLS to secure communication.
+
+Provides:
+
+Encryption: Data is unreadable to anyone who intercepts it.
+
+Authentication: Websites present digital certificates to prove their identity (prevents spoofed or fake websites).
+
+Data Integrity: Ensures the data hasn’t been changed or injected with malicious code during transmission.
+
+Risks of Not Using SSL/TLS
+Data Interception: Sensitive information (like login credentials, personal messages, financial data) can be easily captured by attackers.
+
+Impersonation Attacks: Without authentication, users can be tricked into interacting with fake websites.
+
+Data Tampering: Attackers can alter or inject content into unencrypted traffic.
+
